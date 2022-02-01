@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+<!-- header -->
+<div class="header">
+  <a href="#default" class="logo">Financial Success Challenge</a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+</div>
+
+
+<!-- center div -->
+<div class="main">
+  <fieldset>
+<legend>Savings & Investment Planner</legend>
+
+<!-- Begin form -->
+<form>
+<label for="weekly pay">Enter your average weekly take home pay</label>
+
+<!-- Weekly pay input -->
+<input type="text" id="weekly-takehome-income" name="weekly pay"/>
+
+<!-- Calculate annual income -->
+<div style="text-align: center;"><button type="button" class="glow-on-hover" onclick="getAnnual()" value="Calculate"/>Build Your Plan</button></div>
+</form>
+<!-- annual-income results -->
+<div id="annual-income"></div>
+<!-- weekly-savings results -->
+<div id="weekly-savings"></div>
+<div id="annual-savings"></div>
+</fieldset>
+<p>
+
+</div><!-- .main -->
+
+
+
+
+  
+
+
+      <script src="script.js"></script>
+  </body>
+</html>
